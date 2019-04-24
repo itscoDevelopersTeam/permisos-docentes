@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>permisos-docentes</title>
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+    <link rel="stylesheet" href="{{ mix('css/fontawesome.css') }}">
+    <script src="{{ mix('js/fontawesome.js') }}"></script>
 </head>
 <body>
     @yield('form')
