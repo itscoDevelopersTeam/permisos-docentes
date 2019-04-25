@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('login.inicio-sesion');
 })->name('welcome');
 
-Route ::get('inicio-sesion', function() {
+Route::get('inicio-sesion', function() {
     return view('login.inicio-sesion');
 })->name('inicio');
 
