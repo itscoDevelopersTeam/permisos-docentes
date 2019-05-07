@@ -2,5 +2,8 @@
     "/js/app.js": "/js/app.js",
     "/css/app.css": "/css/app.css",
     "/css/fontawesome.css": "/css/fontawesome.css",
-    "/js/fontawesome.js": "/js/fontawesome.js"
+    "/js/fontawesome.js": "/js/fontawesome.js",
+    "/css/datatables.bootstrap4.min.css": "/css/datatables.bootstrap4.min.css",
+    "/js/dataTables.min.js": "/js/dataTables.min.js",
+    "/js/dataTables.bootstrap4.min.js": "/js/dataTables.bootstrap4.min.js"
 }

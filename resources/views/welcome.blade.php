@@ -7,11 +7,14 @@
     <title>permisos-docentes</title>
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <link rel="stylesheet" href="{{ mix('css/fontawesome.css') }}">
+    <link rel="stylesheet" href="{{ mix('css/datatables.bootstrap4.min.css') }}">
     <script src="{{ mix('js/fontawesome.js') }}"></script>
 </head>
 <body>
     @yield('form')
     
     <script src="{{ mix('js/app.js') }}"></script>
+    <script src="{{ mix('js/dataTables.min.js') }}"></script>
+    <script src="{{ mix('js/dataTables.bootstrap4.min.js') }}"></script>
 </body>
 </html>
