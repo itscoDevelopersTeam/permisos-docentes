@@ -5,5 +5,10 @@
     "/js/fontawesome.js": "/js/fontawesome.js",
     "/css/datatables.bootstrap4.min.css": "/css/datatables.bootstrap4.min.css",
     "/js/dataTables.min.js": "/js/dataTables.min.js",
-    "/js/dataTables.bootstrap4.min.js": "/js/dataTables.bootstrap4.min.js"
+    "/js/dataTables.bootstrap4.min.js": "/js/dataTables.bootstrap4.min.js",
+    "/css/sweetalert2.min.css": "/css/sweetalert2.min.css",
+    "/js/sweetalert2.all.js": "/js/sweetalert2.all.js",
+    "/js/popper.min.js": "/js/popper.min.js",
+    "/css/tipografia.css": "/css/tipografia.css",
+    "/css/estilos.css": "/css/estilos.css"
 }

@@ -1,0 +1,203 @@
+body 
+{
+	background: #E9ECEF;
+	font-size: 16px;
+
+}
+.barra-lateral
+{
+		background: #262a34;
+		color: #fff;
+		min-width: 300px;
+		min-height: 100vh;
+		padding: 0;
+}	
+
+.barra-lateral a 
+{
+	color: #fff;
+}
+
+.barra-lateral .logo
+{
+	
+	margin-bottom: 2px;
+	padding: 10px;
+	position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 30px;
+
+}
+.circuloNot
+{
+ width: 30px;
+ height: 30px;   
+}
+.userImg
+{
+	 width: 100px;
+	height: 100px;
+	margin-left: 18px;
+
+}
+.barra-lateral .menu a
+{   
+	display: block;
+	padding: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	border-bottom: 1px solid rgba(255,255,255,.1);
+
+}
+
+.barra-lateral .menu
+{
+	max-width: 300px;
+}
+
+.barra-lateral .menu a:hover
+{
+	background: #6887C8;
+	text-decoration: none;
+}
+.centrado{
+    position: absolute;
+    top: 10%;
+    left: 100%;
+    transform: translate(-320%, -30%);
+}
+
+
+
+.not
+{   position: absolute;
+	margin-left: 30px;
+	margin-top: -110px;
+	padding-left: 0px;
+	height: 30px;
+	width: 30px;
+
+}
+
+.containerLogo
+{
+	padding-left: 0px;
+	margin-bottom: 10px;
+}
+
+.fondoImg
+{
+
+	height: 22.5vh;
+	width: 100%;
+	min-width: 200px;
+	position: absolute;
+}
+
+.fondoImg:hover 
+{
+	filter: saturate(300%);
+}
+
+.fa-layers-counter
+{
+	border-radius: 5px;
+	background:blue; 
+	margin-left: 35px;
+	
+}
+
+
+
+.menu i 
+{
+	padding-right: 5px;
+	 display: inline-flex;
+     transform: rotate(0deg);
+  
+  -webkit-transition: all 500ms ease-in-out;
+}
+
+.logo .fa-layers-counter
+{
+	position: absolute;
+	 border-radius: 200px; 
+	 margin-left: 40px;
+	  margin-top: -100px; 
+	  background: #0359E6;
+}
+
+.menu .fa-layers-counter 
+{
+	 background-color: #0649B6;
+}
+
+
+.btn-add:hover .fa-user-plus{
+	transform: scale(1.4,1.4);
+}
+.btneliminar:hover .fa-trash-alt{
+	transform: scale(1.4,1.4);
+}
+.menu #a_registros:hover .icon-users{
+  transform: scale(1.3,1.3);
+ 
+}
+.menu #a_notificaciones:hover .fa-bell{
+  transform: scale(1.4,1.4);
+
+}
+.menu #a_permisos:hover .fa-running{
+  transform: scale(1.5,1.5);
+ 
+}
+.menu #a_cerrar:hover .icon-logout{
+  transform: scale(1.5,1.5);
+ 
+}
+.contenido{
+	padding: 0%;
+}
+.menu #a_horas:hover .fa-clock{
+  transform: scale(1.3,1.3);
+ 
+}
+
+.menu .drop-items #a_trabajador:hover .fa-user-edit
+{
+ transform: scale(1.1,1.1);
+}
+
+.menu .drop-items #a_area:hover .fa-id-card-alt
+{
+ transform: scale(1.1,1.1);
+}
+th{
+    background-color: #262A34;
+    color: whitesmoke;
+    border-block-end-color: #1ABC9C;
+    
+}
+.btn-add:hover{
+    background-color: #6887C8;
+}
+.card-header{
+    background-color: #134E6F;
+    color: aliceblue;
+}
+.card{
+    border-block-end-color: #134E6F;
+    border-bottom-style: groove;
+    border-collapse: unset;
+    border-color: #134E6F;
+    background-color: #E8E8E0;
+}
+.btnadd{
+	background-color: #262A34;
+	
+}
+.footer{
+	  margin-top:100px;
+}

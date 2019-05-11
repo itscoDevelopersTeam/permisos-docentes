@@ -23,3 +23,16 @@ mix.copy('node_modules/datatables.net-bs4/css/datatables.bootstrap4.min.css', 'p
 
 mix.copy('node_modules/datatables.net/js/jquery.dataTables.min.js', 'public/js/dataTables.min.js')
    .copy('node_modules/datatables.net-bs4/js/dataTables.bootstrap4.min.js', 'public/js/dataTables.bootstrap4.min.js');
+
+//SWEET ALERT
+mix.copy('node_modules/sweetalert2/dist/sweetalert2.min.css','public/css/sweetalert2.min.css');
+mix.copy('node_modules/sweetalert2/dist/sweetalert2.all.js','public/js/sweetalert2.all.js');
+
+//Pooper
+mix.copy('node_modules/popper.js/dist/popper.min.js','public/js/popper.min.js');
+
+//Tipografia
+mix.copy('resources/css/tipografia.css','public/css/tipografia.css');
+
+//Funciones personalizadas
+mix.copy('resources/css/estilos.css','public/css/estilos.css');

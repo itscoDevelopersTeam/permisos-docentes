@@ -31,6 +31,11 @@ Route::prefix('rh')->name('rh.')->group(function() {
     // Grupo de rutas para recursos humanos
 });
 
+Route::get('/trabajadores',function(){
+    return view('Trabajador.registros');
+})->name('trabajador');
+
+
 // Grupo de rutas para users
 Route::prefix('{username}')->name('user.')->group(function() {
     
