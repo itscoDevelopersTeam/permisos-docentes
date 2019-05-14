@@ -23,21 +23,45 @@ Route::get('registrar', function() {
     return view('login.registrar');
 })->name('registro');
 
-Route::prefix('admin')->name('admin.')->group(function() {
-    // Grupo de rutas para admins
+// Grupo de rutas para admins
+Route::prefix('admin/{admin_name}')->name('admin.')->group(function() {
+    
+    Route::get('/', function(){
+        return view('admin.registros');
+    })->where('admin_name', '[A-Za-z]+')->name('home');
+
+    Route::get('registra-trabajador', function($admin_name) {
+        return view('admin.registra-trabajador');
+    })->name('registra.trabajador');
+
+    Route::get('registra-area', function($admin_name) {
+        return view('admin.registra-area');
+    })->name('registra.area');
+
+    Route::get('notificaciones', function($admin_name) {
+        return view('admin.notificaciones');
+    })->name('notificaciones');
+
+    Route::get('permisos', function($admin_name) {
+        return view('admin.permisos');
+    })->name('permisos');
+
+    Route::get('consulta-horas', function($admin_name) {
+        return view('admin.horas');
+    })->name('horas');
+
+    Route::get('cerrar-sesion', function() {
+        return redirect('/');
+    })->name('logout');
+    
 });
 
 Route::prefix('rh')->name('rh.')->group(function() {
     // Grupo de rutas para recursos humanos
 });
 
-Route::get('/trabajadores',function(){
-    return view('Trabajador.registros');
-})->name('trabajador');
-
-
 // Grupo de rutas para users
-Route::prefix('{username}')->name('user.')->group(function() {
+Route::prefix('user/{username}')->name('user.')->group(function() {
     
     // Ruta home para cada usuario
     Route::get('/', function($username) {
@@ -45,12 +69,12 @@ Route::prefix('{username}')->name('user.')->group(function() {
     })->where('username', '[A-Za-z]+')->name('index');
 
     // Devuelve vista para solicitar nuevo permiso
-    Route::get('/nuevo', function($username) {
+    Route::get('nuevo', function($username) {
         echo 'Nuevo permiso para ' . $username;
     })->where('username', '[A-Za-z]+')->name('nuevo');
     
     // Devuelve vista con histórico de permisos
-    Route::get('/consulta', function($username) {
+    Route::get('consulta', function($username) {
         echo 'Consulta permisos para ' . $username;
     })->where('username', '[A-Za-z]+')->name('consultar');
 });
