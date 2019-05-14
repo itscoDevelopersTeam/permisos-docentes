@@ -16,7 +16,7 @@
                     </ul>
                 </div>
                 <div class="card-body">
-                    <form>
+                    <form method="GET" action="{{ route('admin.home', 'user') }}">
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email</label>
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="itsco-docente@gmail.com">
