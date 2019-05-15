@@ -15,7 +15,8 @@
                 <div class="container containerLogo">
                     <img src="/img/fondo.jpg" class="fondoImg">
                     <div class="logo"> 
-                        <img src="/img/users.gif" class="rounded-circle userImg" >      
+                        <img src="/img/users.gif" class="rounded-circle userImg" >     
+                        <span class="fa-layers-counter" id="contador" >0</span>  
                     </div>
                 </div>
                 <!-- Contenido del dashboard -->

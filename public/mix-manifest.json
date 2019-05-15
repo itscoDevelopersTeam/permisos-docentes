@@ -10,5 +10,6 @@
     "/js/sweetalert2.all.js": "/js/sweetalert2.all.js",
     "/js/popper.min.js": "/js/popper.min.js",
     "/css/tipografia.css": "/css/tipografia.css",
-    "/css/estilos.css": "/css/estilos.css"
+    "/css/estilos.css": "/css/estilos.css",
+    "/css/fontello.css": "/css/fontello.css"
 }

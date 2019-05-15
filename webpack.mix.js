@@ -36,3 +36,6 @@ mix.copy('resources/css/tipografia.css','public/css/tipografia.css');
 
 //Funciones personalizadas
 mix.copy('resources/css/estilos.css','public/css/estilos.css');
+
+//Fontello
+mix.copy('resources/css/fontello.css','public/css/fontello.css');
